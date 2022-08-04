@@ -1,0 +1,57 @@
+/*Webpage CSS document for Lab Test 1.
+  (c)  Authors: Zaki Siddiqui
+  For: EECS 1012, York University, Lassonde School of Engineering
+*/ 
+  body {
+      font-family: NimbusSanL, Arial, sans-serif;
+      text-align: left;
+      color:white;
+      background-color:lightyellow; 
+  }
+  
+  div {
+      background-color:lightyellow;
+  }
+  header, h2{
+      color: darkgreen;
+      text-align: left;
+  }
+  span{
+    background-color: lightyellow;
+        color: red;
+        text-align: right;
+  }
+span:hover{
+  font-size:300%;
+}
+
+  button {
+      color:white;
+      width:200px;
+      background-color: green;
+  }
+  
+  strong {
+      font-family: NimbusSanL, Arial, sans-serif;
+      font-size:20px;
+      color:red; 
+      text-align: left;
+  }
+  .input1{
+      position: fixed; left:1050px; top:75px;
+      font-size: 15px;
+      border: 2px solid green;
+      border-radius: 4px;
+    }
+  .input2{
+    position: fixed; left:1050px; top:100px;
+    font-size: 15px;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+  footer{
+      padding-top:10px;
+      text-align:center;
+      font-size:10px;
+      color:white;
+  }

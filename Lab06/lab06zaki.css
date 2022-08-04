@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  background-color:#eee;
+  overflow:auto;
+}
+
+body {
+	text-align:center;
+}
+
+div {
+	border:1px solid grey;
+	margin-top:20px;
+}
+
+#problem {
+	/* in Ex1, add one line here to specify the width of 
+	this element relative to the width of the viewport */ 
+	width: 90%;
+	margin:auto;
+	margin-top:20px;
+	height:80px;
+	text-align:left;
+	color:red;
+	font-family:Luminary, cursive;
+	font-size:15px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+strong {
+	font-family: NimbusSanL, Arial, sans-serif;
+	font-size:1.2em;
+	color:Green; 
+	text-decoration:bold;
+	text-align:left;
+	float:left
+}
+
+footer{
+	padding-top:10px;
+	text-align:center;
+	font-size:10px;
+	color:LightSlateGrey;
+}
+
+
+/* Responsive layout - makes the three columns stack 
+on top of each other instead of next to each other */
+ 
+  header nav button{ 
+	  width:18%;
+	  font-size:8px;
+  }
+
+@media screen and (min-width:600px) {
+  [class*="column"] {
+    width:32%;
+  }
+  
+  header nav button{ 
+	width:9%;
+	font-size:1.2vw;
+  }
+}
+

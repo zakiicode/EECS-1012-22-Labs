@@ -1,0 +1,53 @@
+function prog1Zaki() {
+  
+   
+    var outputObj=document.getElementById("output");
+    var a = parseInt(prompt("Please enter a number: "));
+    var b = parseInt(prompt("Please enter a number: "));
+    var c = parseInt(prompt("Please enter a number: "));
+    
+    outputObj.innerHTML="Number of roots: ";
+
+    var d= b*b - (4*a*c);
+    if(d>0){
+        outputObj.innerHTML=outputObj.innerHTML+"2 distinct roots";
+    }
+    else if(d<0){
+        outputObj.innerHTML=outputObj.innerHTML+"no roots in ℝ";
+    }
+    else{
+        outputObj.innerHTML=outputObj.innerHTML+"identical roots";
+    }
+
+
+  }
+  function prog2Zaki() {
+  
+   
+    var outputObj=document.getElementById("output");
+    var num = parseInt(prompt("Please enter a number: "));
+    outputObj.innerHTML="Self diving? ";
+    var flag = true;
+    var d=0;
+    while(num!=0 && flag){
+        d= num%10;
+        if(d==0){
+            flag=false;
+        }
+        else if((num%d)!=0){
+            flag=false;
+        }
+        else{
+            num= Math.floor(num/10);
+        }
+    }
+    if(flag){
+        outputObj.innerHTML=outputObj.innerHTML+"self Dividing";
+    }
+    else{
+        outputObj.innerHTML=outputObj.innerHTML+"not self-dividing";
+    }
+       
+
+    
+  }
