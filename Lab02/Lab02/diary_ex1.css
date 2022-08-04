@@ -1,0 +1,21 @@
+
+.content{
+    border:5px blue solid;
+}
+header{
+    border: solid 3px green;
+}
+header h2{
+    border: orange solid 3px;
+}
+.entry1{
+    border:5px lime solid;
+}
+p{
+    border: grey solid 2px;
+}
+
+.footer{
+    border: solid magenta 3px;
+}
+

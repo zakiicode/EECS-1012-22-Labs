@@ -1,0 +1,39 @@
+
+.content{
+    border:5px blue solid;
+    background-color: ivory;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header{
+    border: solid 3px green;
+    overflow: auto;
+}
+header h1{
+    float: right;
+}
+header h2{
+    border: orange solid 3px;
+    float: right;
+}
+.entry1{
+    border:5px lime solid;
+    background-color: rgb(236,236,245);
+    padding: 15px;
+    margin-top: 10px;
+    overflow: auto;
+}
+/*p{
+    border: grey solid 2px;
+}
+*/
+
+.footer{
+    border: solid magenta 3px;
+}
+body{
+    background-image: url(paper.png);
+}
+img{
+    float:right; 
+}
